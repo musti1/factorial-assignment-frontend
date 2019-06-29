@@ -13,7 +13,7 @@ class SignInForm extends Component {
     }
 
     updateParent = (user) => {
-        this.props.loggedIn({email: user.email, name: user.name, isSignedIn: true});
+        this.props.loggedIn({email: user.emailId, name: user.name, isSignedIn: true});
     };
 
     handleChange = (e) =>  {
@@ -30,8 +30,8 @@ class SignInForm extends Component {
         e.preventDefault();
         const response = await AuthService.signIn(this.state);
         const result = await response.json();
-        if(result.user){
-            this.updateParent(result.user);
+        if(result.User){
+            this.updateParent(result.User);
         }
     };
 
