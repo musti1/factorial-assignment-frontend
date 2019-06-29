@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:4000/api';
+const baseUrl = 'https://assignment-factorial.herokuapp.com/api';
 
 class FactorialService {
     static async getFactorial(body) {
