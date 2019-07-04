@@ -1,4 +1,4 @@
-const baseUrl = 'https://assignment-factorial.herokuapp.com/api';
+const baseUrl = 'https://lovely-yellowstone-33319.herokuapp.com/api';
 
 class FactorialService {
     static async getFactorial(body) {

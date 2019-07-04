@@ -1,4 +1,4 @@
-const baseUrl = 'https://assignment-factorial.herokuapp.com/api';
+const baseUrl = 'https://lovely-yellowstone-33319.herokuapp.com/api';
 const headers = {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
